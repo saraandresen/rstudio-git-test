@@ -2,5 +2,5 @@
 
 library(RColorBrewer)
 
-mPalette <- brewer.pal(8, 'Greens')
+mPalette <- brewer.pal(8, 'Reds')
 pie(rep(1, 8), col = mPalette)
